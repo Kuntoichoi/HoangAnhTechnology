@@ -1,0 +1,34 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+dist-ssr/
+build/
+
+# Local environment and secrets
+.env
+.env.local
+.env.*.local
+server/.env
+client/.env.local
+test_ssh.exp
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/*
+!.vscode/extensions.json
+
+# Deploy tooling
+.vercel/
+
+# Local Git metadata backups from previous nested repos
+.git.backup-before-monorepo/
